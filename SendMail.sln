@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendMail", "SendMail\SendMail.csproj", "{69445ED2-6E55-4DE3-814E-2285B5009984}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailLib", "EmailLib\EmailLib.csproj", "{CA6CE211-2C95-4AF3-B4CD-A3CB4EFFBFCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{69445ED2-6E55-4DE3-814E-2285B5009984}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69445ED2-6E55-4DE3-814E-2285B5009984}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69445ED2-6E55-4DE3-814E-2285B5009984}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA6CE211-2C95-4AF3-B4CD-A3CB4EFFBFCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA6CE211-2C95-4AF3-B4CD-A3CB4EFFBFCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA6CE211-2C95-4AF3-B4CD-A3CB4EFFBFCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA6CE211-2C95-4AF3-B4CD-A3CB4EFFBFCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
