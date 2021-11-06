@@ -33,8 +33,7 @@ namespace SendMail
         }
         private void Button_Send_OnClick(object sender, RoutedEventArgs e)
         {
-            var message = new EmailMessage(Input_To.Text, Input_From.Text, Input_Subject.Text, Input_Message.Text, _path);
-            EmailSend.Send(message);
+            EmailSend.Send(Input_To.Text, Input_From.Text, Input_Subject.Text, Input_Message.Text, _path);
         }
     }
 }
