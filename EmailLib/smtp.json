@@ -1,0 +1,6 @@
+﻿{
+  "Server": "server@email.mail",
+  "Port": 587,
+  "Login": "login@email.mail",
+  "Password": "123"
+}

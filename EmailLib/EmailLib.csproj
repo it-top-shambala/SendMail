@@ -5,4 +5,10 @@
         <RootNamespace>EmailLib</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <None Update="smtp.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>
